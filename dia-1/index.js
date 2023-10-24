@@ -1,13 +1,13 @@
 import * as stuff from './fibonacci.js';
 
-const person = {
+const persona = {
 	name: {
-		first: 'John',
-		last: 'Doe',
+		first: 'Juan',
+		last: 'Pérez',
 	},
 };
 
-const first = person?.name?.first;
+const primero = persona?.name?.first;
 
-stuff.sayHello();
-console.log(stuff.generateFibonacci(10));
+stuff.decirHola();
+console.log(stuff.generarFibonacci(10));

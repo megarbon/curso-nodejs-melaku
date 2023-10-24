@@ -1,8 +1,11 @@
 const fs = require('fs');
 
-const args = process.argv.slice(2);
-const name = args[0];
+const nombre = 'Gary';
 
-fs.writeFile('hola.txt', `Hola ${name}!`, (err) => {
-	console.log('Done!');
+fs.writeFile('hola.txt', `Hola ${nombre}!`, (error) => {
+	if (error) {
+		console.error('¡Hubo un error!');
+	} else {
+		console.log('¡Hecho!');
+	}
 });

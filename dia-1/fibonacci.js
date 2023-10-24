@@ -1,22 +1,18 @@
 // 1 1 2 3 5 8 13 21 ...
 
-export function sayHello() {
-	console.log('Hello!');
-}
-
-export function generateFibonacci(howMany) {
+export function generarFibonacci(cuantos) {
 	let x = 1;
 	let y = 1;
-	let sequence = [x, y];
+	let secuencia = [x, y];
 
-	Array(howMany)
+	Array(cuantos)
 		.fill()
 		.forEach(() => {
-			let sum = x + y;
-			sequence.push(sum);
+			let suma = x + y;
+			secuencia.push(suma);
 			x = y;
-			y = sum;
+			y = suma;
 		});
 
-	return sequence;
+	return secuencia;
 }
