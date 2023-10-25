@@ -16,8 +16,8 @@ Este repositorio contiene los materiales y ejercicios para el curso de Node.js d
 8. Implementación de WebSockets
 9. Configuración de Servidores con Node.js
 10. Uso de Reverse Proxy Nginx
-11. Proyecto Final
-12. Introducción a Deno
+11. Introducción a Deno
+12. Proyecto Final
 
 ## Instrucciones
 
