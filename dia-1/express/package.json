@@ -1,11 +1,18 @@
 {
-  "name": "primer-proyecto-express",
-  "version": "1.0.0",
-  "description": "probando express",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Melaku",
-  "license": "MIT"
+	"name": "primer-proyecto-express",
+	"version": "1.0.0",
+	"description": "probando express",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Melaku",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.29.3"
+	}
 }
